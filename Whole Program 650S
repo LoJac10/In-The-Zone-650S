@@ -153,14 +153,15 @@ driveTrain_func(){
 void
 towerLift_func(){
 		 while(true){
-		  if(vexRT[Btn5U] == 1){
+	// raise tower
+	if(vexRT[Btn5U] == 1){
     		motor[elevatorL] = -SPEED393_STANDARD;
     		motor[elevatorR] = SPEED393_STANDARD;}
-    	//lower tower lift
+    	// lower tower lift
     	else if(vexRT[Btn5D] == 1){
     		motor[elevatorL] = SPEED393_STANDARD;
     		motor[elevatorR] = -SPEED393_STANDARD;}
-    	//hold steady
+    	// hold steady
     	else
     	{motor[elevatorL] = 0;
     	 motor[elevatorR] = 0;}
@@ -171,17 +172,17 @@ towerLift_func(){
 void
 armLift_func(){
 		 while(true){
-
-    	 if(vexRT[Btn6U] == 1){
+		// raise arm lift
+    	 	if(vexRT[Btn6U] == 1){
 	    		motor[armL] = -ARMSPEED_STANDARD;
 	    		motor[armR] = ARMSPEED_STANDARD;
 	    		}
-	    		//lower arm lift
+	    	// lower arm lift
 	    	else if(vexRT[Btn6D] == 1){
 	    		motor[armL] = ARMSPEED_STANDARD;
 	    		motor[armR] = -ARMSPEED_STANDARD;
 	    		}
-	    		//hold steady
+	    	// hold steady
 	    	else
 	    	{motor[armL] = 0;
 	    	 motor[armR] = 0;
@@ -193,17 +194,17 @@ armLift_func(){
 void
 shovelLift_func(){
     while(true){
-
-    if(vexRT[Btn7U] == 1){
+	// raise mogo lift
+    	if(vexRT[Btn7U] == 1){
     		motor[mogoL] = -MOBILESPEED_STANDARD;
     		motor[mogoR] = MOBILESPEED_STANDARD;}
 
-    	//lower shovel lift
+    	// lower mogo lift
     	else if(vexRT[Btn7D] == 1){
     		motor[mogoL] = MOBILESPEED_STANDARD;
     		motor[mogoR] = -MOBILESPEED_STANDARD;}
 
-    	//hold steady
+    	// hold steady
     	else
     	{motor[mogoL] = 0;
     	 motor[mogoR] = 0;}
@@ -214,15 +215,15 @@ shovelLift_func(){
 void
 claw_func(){
     while(true){
-
+	// open claw
     	if(vexRT[Btn8R] == 1){
     		motor[claw] = CLAWSPEED_STANDARD;
     		}
-    	//close claw
+    	// close claw
     	else if(vexRT[Btn8L] == 1){
     		motor[claw] = -CLAWSPEED_STANDARD;
     		}
-    	//hold steady
+    	// hold steady
     	else{
     		motor[claw] = 0;
     		}
