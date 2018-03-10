@@ -251,8 +251,8 @@ zeroEncoders_func(){
 void autoDrive(int speed){
 	motor[driveR] = -speed;					// 'Y' motors RightFront and RightBack
 	motor[driveL] = speed;					// 'Y' motors LeftFront and LeftBack
-	//motor[] = speed;														// open commmand for programming motors individually
-	//motor[] = speed;														// open commmand for programming motors individually
+	//motor[] = speed;					// open commmand for programming motors individually
+	//motor[] = speed;					// open commmand for programming motors individually
 }
 
 /*
@@ -351,10 +351,10 @@ clearLCD(){
 	clearLCDLine(1);	// 2nd line of LCD
 }
 
-//------------------------------------------------------------------------------------------ FUNCTION: PLACE HOLDER LCD DISPLAY INFORMATION
+//------------------------------------------------------------------------------------------ FUNCTION: PLACE HOLDER LCD DISPLAY INFO
 void
 nothingOnScreen(){
-	displayLCDCenteredString(0, "Currently"); // Msg Output to 1st line of LCD
+	displayLCDCenteredString(0, "Currently"); 		// Msg Output to 1st line of LCD
 	displayLCDCenteredString(1, "Empty");			// Msg Output to 2nd line of LCD
 }
 
