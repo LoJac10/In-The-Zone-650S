@@ -101,7 +101,7 @@ int driverControlModeCount = 1;
 //const int MAX_OUT = MAX_MOTOR_POWER_FWD;
 //const int SPEED393_HIGHSPEED = 160;
 const int DEADBAND = 25;
-const int MOBILESPEED_STANDARD = 127;
+const int MOGO_STANDARD = 120;
 const int ARMSPEED_STANDARD = 120;
 const int CLAWSPEED_STANDARD = 100;
 const int SPEED393_STANDARD = 100;
@@ -143,8 +143,8 @@ driveTrain_func(){
 
 	/* TRADITIONAL
 	while(true){
-		motor[drivetrain_L] = vexRT(Ch3);
-		motor[drivetrain_R] = vexRT(Ch2);
+		motor[driveL] = vexRT(Ch3);
+		motor[driveR] = vexRT(Ch2);
 	}
 	*/
 }
@@ -196,13 +196,13 @@ shovelLift_func(){
     while(true){
 	// raise mogo lift
     	if(vexRT[Btn7U] == 1){
-    		motor[mogoL] = -MOBILESPEED_STANDARD;
-    		motor[mogoR] = MOBILESPEED_STANDARD;}
+    		motor[mogoL] = -MOGOSPEED_STANDARD;
+    		motor[mogoR] = MOGOSPEED_STANDARD;}
 
     	// lower mogo lift
     	else if(vexRT[Btn7D] == 1){
-    		motor[mogoL] = MOBILESPEED_STANDARD;
-    		motor[mogoR] = -MOBILESPEED_STANDARD;}
+    		motor[mogoL] = MOGOSPEED_STANDARD;
+    		motor[mogoR] = -MOGOSPEED_STANDARD;}
 
     	// hold steady
     	else
