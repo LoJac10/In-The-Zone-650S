@@ -1,8 +1,8 @@
 WIRING DIAGRAM FOR  650S
 FOR VRC SEASON 2017-18
 
--- Robot Wiring Diagram --
--- RobotC 4.56 (9134) on VEX Cortex --
+Robot Wiring Diagram
+RobotC 4.56 (9134) on VEX Cortex
 
 ```
 ##	Motors & Sensors:
@@ -28,17 +28,17 @@ FOR VRC SEASON 2017-18
 ##	Motors & Sensors:
 ##	Analog Port Wiring Diagram
 
-|  	  [I/O Port]     |       [Name]       |       [Type]	   |	     [Description]	      |
-|--------------------|--------------------|--------------------|------------------------------|
-| Analog Port 1 	 | pwrExp 	   	   	  | Status Line 	   |                   			  |
-| Analog Port 2 	 |                    |             	   |                   			  |
-| Analog Port 3 	 |                    |             	   |                   		      |
-| Analog Port 4 	 |                    |             	   |                   			  |
-| Analog Port 5 	 |                    |             	   |                   	          |
-| Analog Port 6 	 |                    |             	   |                   			  |
-| Analog Port 7 	 |                    |             	   |                   			  |
-| Analog Port 8 	 |                    |             	   |                   			  |
-|               	 |                    |             	   |                   			  |
+|     [I/O Port]     |     [Name]     |     [Type]     |     [Description]     |
+|--------------------|----------------|----------------|-----------------------|
+| Analog Port 1      | pwrExp 	   	  | Status Line    |                       |
+| Analog Port 2      |                |                |                       |
+| Analog Port 3      |                |                |                       |
+| Analog Port 4      |                |                |                       |
+| Analog Port 5      |                |                |                       |
+| Analog Port 6      |                |                |                       |
+| Analog Port 7      |                |                |                       |
+| Analog Port 8      |                |                |                       |
+|                    |                |                |                       |
 ```
 ```
 ##	Motors & Sensors:
