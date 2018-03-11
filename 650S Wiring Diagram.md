@@ -8,11 +8,11 @@ FOR VRC SEASON 2017-18
 ##	Motors & Sensors:
 ##	UART Port Wiring Diagram
 
-|  [I/O Port]  |  [Name]       |       [Type]	   |	     [Description]	      |
-|--------------|--------------------|--------------------|------------------------------|
-| UART Port 1  | 	   	   		   	  |  				   |                   			  |
-| UART Port 2  | none       	  |  VEX LCD   		   |  VEX LCD Screen   			  |
-|              |                    |            		   |                   			  |
+|  [I/O Port]  |  [Name]  |    [Type]    |    [Description]    |
+|--------------|----------|--------------|---------------------|
+| UART Port 1  |          |              |                     |
+| UART Port 2  | none     |  VEX LCD     |  VEX LCD Screen     |
+|              |          |              |                     |
 
 ```
 ```
