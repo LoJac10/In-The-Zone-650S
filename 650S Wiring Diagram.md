@@ -30,7 +30,7 @@ RobotC 4.56 (9134) on VEX Cortex
 
 |     [I/O Port]     |     [Name]     |     [Type]     |     [Description]     |
 |--------------------|----------------|----------------|-----------------------|
-| Analog Port 1      | pwrExp 	   	  | Status Line    |                       |
+| Analog Port 1      | pwrExp         | Status Line    |                       |
 | Analog Port 2      |                |                |                       |
 | Analog Port 3      |                |                |                       |
 | Analog Port 4      |                |                |                       |
