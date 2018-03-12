@@ -1,7 +1,7 @@
-WIRING DIAGRAM FOR  650S
+WIRING DIAGRAM FOR  650S  
 FOR VRC SEASON 2017-18
 
-Robot Wiring Diagram
+Robot Wiring Diagram  
 RobotC 4.56 (9134) on VEX Cortex
 
 ```
