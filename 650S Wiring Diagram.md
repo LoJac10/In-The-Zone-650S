@@ -8,43 +8,43 @@ RobotC 4.56 (9134) on VEX Cortex
 ##	Motors & Sensors:
 ##	UART Port Wiring Diagram
 
-|  [I/O Port]  |  [Name]  |    [Type]    |    [Description]    |
-|--------------|----------|--------------|---------------------|
-| UART Port 1  |          |              |                     |
-| UART Port 2  | none     |  VEX LCD     |  VEX LCD Screen     |
-|              |          |              |                     |
+|     [I/O Port]     |       [Name]       |       [Type]       |         [Description]        |
+|--------------------|--------------------|--------------------|------------------------------|
+| UART Port 1        |                    |                    |                              |
+| UART Port 2        | none               |  VEX LCD           |  VEX LCD Screen              |
+|                    |                    |                    |                              |
 
 ```
 ```
 ##	Motors & Sensors:
 ##	I2C
 
-|     [I/O Port]     |     [Name]     |     [Type]     |     [Description]     |
-|--------------------|----------------|----------------|-----------------------|
-| I2C                |                |                |                       |
-|                    |                |                |                       |
+|     [I/O Port]     |       [Name]       |       [Type]       |         [Description]        |
+|--------------------|--------------------|--------------------|------------------------------|
+| I2C                |                    |                    |                              |
+|                    |                    |                    |                              |
 ```
 ```
 ##	Motors & Sensors:
 ##	Analog Port Wiring Diagram
 
-|     [I/O Port]     |     [Name]     |     [Type]     |     [Description]     |
-|--------------------|----------------|----------------|-----------------------|
-| Analog Port 1      | pwrExp         | Status Line    |                       |
-| Analog Port 2      |                |                |                       |
-| Analog Port 3      |                |                |                       |
-| Analog Port 4      |                |                |                       |
-| Analog Port 5      |                |                |                       |
-| Analog Port 6      |                |                |                       |
-| Analog Port 7      |                |                |                       |
-| Analog Port 8      |                |                |                       |
-|                    |                |                |                       |
+|     [I/O Port]     |       [Name]       |       [Type]       |         [Description]        |
+|--------------------|--------------------|--------------------|------------------------------|
+| Analog Port 1      | pwrExp             | Status Line        |                              |
+| Analog Port 2      |                    |                    |                              |
+| Analog Port 3      |                    |                    |                              |
+| Analog Port 4      |                    |                    |                              |
+| Analog Port 5      |                    |                    |                              |
+| Analog Port 6      |                    |                    |                              |
+| Analog Port 7      |                    |                    |                              |
+| Analog Port 8      |                    |                    |                              |
+|                    |                    |                    |                              |
 ```
 ```
 ##	Motors & Sensors:
 ##	Motor Port Wiring Diagram
 
-|  	  [I/O Port]     |       [Name]       |       [Type]	   |	     [Description]	      |
+|     [I/O Port]     |       [Name]       |       [Type]       |         [Description]        |
 |--------------------|--------------------|--------------------|------------------------------|
 | Motor Port 1  	 | claw 	   	   	  | 393 Motor  		   | claw motor              	  |
 | Motor Port 2  	 | elevatorL          | 393 Motor  		   | elevator Lift Left      	  |
@@ -62,7 +62,7 @@ RobotC 4.56 (9134) on VEX Cortex
 ##	Motors & Sensors:
 ##	Digital Port Wiring Diagram
 
-|  	  [I/O Port]     |       [Name]       |       [Type]	   |	     [Description]	      |
+|     [I/O Port]     |       [Name]       |       [Type]       |         [Description]        |
 |--------------------|--------------------|--------------------|------------------------------|
 | Digital Port 1     | quadL			  | Quad Encoder 	   | Quadrature Encoder		      |           
 | Digital Port 2     |					  | Quad Encoder       | Quadrature Encoder		      |                 
