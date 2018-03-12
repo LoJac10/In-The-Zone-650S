@@ -66,13 +66,13 @@ const int SPEED393_STANDARD = 100;
 
 	int q1, q2, q3, q4;					// variables to record ditance for testing
 	int encoderTicks = 360; 				// number of ticks in a revolution.
-																								// QSE = 360. IEM = 627.2 @ 100rpm gearing.
-																								// 392 @ 160 rpm gearing
+								// QSE = 360. IEM = 627.2 @ 100rpm gearing.
+								// 392 @ 160 rpm gearing
 	int wheelDiameter = 4;					// set the wheel diameter in inches
 	//int mogoSpeed;					// power setting for mobile goals
 	//int mogoMsec;						// wait time for mobile goals
-																								// called in encoder functions.
-																								// use float and 10.16 for cm.
+								// called in encoder functions.
+								// use float and 10.16 for cm.
 	int wheelCirc = wheelDiameter * PI;			// circumference of wheel measurement calc.
 	int ticksPerInch = encoderTicks / wheelCirc; 		// calc to gen #ticks / inch.
 
