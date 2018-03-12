@@ -64,17 +64,17 @@ RobotC 4.56 (9134) on VEX Cortex
 
 |     [I/O Port]     |       [Name]       |       [Type]       |         [Description]        |
 |--------------------|--------------------|--------------------|------------------------------|
-| Digital Port 1     | quadL			  | Quad Encoder 	   | Quadrature Encoder		      |           
-| Digital Port 2     |					  | Quad Encoder       | Quadrature Encoder		      |                 
-| Digital Port 3	 | quadR			  | Quad Encoder       | Quadrature Encoder		      |               
-| Digital Port 4	 |				      | Quad Encoder       | Quadrature Encoder		      |       
-| Digital Port 5	 |	                  |                    |                              |										                        
-| Digital Port 6	 |	                  |                    |                              |												                                                *|
-| Digital Port 7	 |	                  |                    |                              |											   
-| Digital Port 8	 |	                  |                    |                              |											    
-| Digital Port 9	 |	                  |                    |                              |												     
-| Digital Port 11	 |	                  |                    |                              |												                     
-| Digital Port 12	 |	                  |                    |                              |												                         
-| Digital Port SP	 |	                  |                    |                              |												                                                *|
-|                    |	                  |                    |                              |	
+| Digital Port 1     | quadL              | Quad Encoder       | Quadrature Encoder           |
+| Digital Port 2     |                    | Quad Encoder       | Quadrature Encoder           |
+| Digital Port 3     | quadR              | Quad Encoder       | Quadrature Encoder           |     
+| Digital Port 4     |                    | Quad Encoder       | Quadrature Encoder           |
+| Digital Port 5     |                    |                    |                              |
+| Digital Port 6     |                    |                    |                              |
+| Digital Port 7     |                    |                    |                              |
+| Digital Port 8     |                    |                    |                              |
+| Digital Port 9     |                    |                    |                              |
+| Digital Port 11    |                    |                    |                              |
+| Digital Port 12    |                    |                    |                              |
+| Digital Port SP    |                    |                    |                              |                
+|                    |                    |                    |                              |
 ```
