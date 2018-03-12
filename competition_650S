@@ -32,6 +32,11 @@
 #define PI 3.14159265359
 #define WHEEL_CIRC 4*PI
 #define DEADBAND 25
+#define MOGO_STANDARD 120
+#define ARMSPEED_STANDARD 120
+#define CLAWSPEED_STANDARD 100
+#define SPEED393_STANDARD 100
+//#define SPEED393_HIGHSPEED 160
 
 //////////////////////////////////////////////////////////////////////////////////////////
 //
@@ -55,12 +60,6 @@ int driverControlModeCount = 1;
 //const float EFFECTIVE_CIRC = WHEEL_CIRC*sqrt(2);
 //const float TICKS_PER_REVOLUTION = 627.2;
 //const int MAX_OUT = MAX_MOTOR_POWER_FWD;
-//const int SPEED393_HIGHSPEED = 160;
-const int MOGO_STANDARD = 120;
-const int ARMSPEED_STANDARD = 120;
-const int CLAWSPEED_STANDARD = 100;
-const int SPEED393_STANDARD = 100;
-
 
 //------------------------------------------------------------------------------------------ GLOBAL VARIABLES
 
