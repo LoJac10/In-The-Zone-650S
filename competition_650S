@@ -27,6 +27,7 @@
 #include "Vex_Competition_Includes.c" 
 
 #include "OPsubsystems.c"
+#include "util.c"
 #include "batt.c"
 
 #define PI 3.14159265359
@@ -79,18 +80,9 @@ int driverControlModeCount = 1;
 
 
 // OPsubsystems.c
+// util.c
 
-//------------------------------------------------------------------------------------------	FUNCTION: CLEAR ENCODERS
-void
-zeroEncoders_func(){
-	//Clear the encoders associated with the left and right drive train motors
-	//nMotorEncoder[leftQuadEncoder] = 0;
-	//nMotorEncoder[rightQuadEncoder] = 0;
 
-	//Commands for 393 Integrated Motor Encoder to Reset Encoder Counts to Zero
-	resetMotorEncoder(driveL);				// reset back left encoder count to zero
-	resetMotorEncoder(driveR);				// reset back right encoder count to zero
-}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////// 
 //
