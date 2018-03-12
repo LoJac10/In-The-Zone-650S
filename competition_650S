@@ -26,6 +26,7 @@
 #pragma competitionControl(Competition)
 #include "Vex_Competition_Includes.c" 
 
+#include "OPsubsystems.c"
 #include "batt.c"
 
 #define PI 3.14159265359
