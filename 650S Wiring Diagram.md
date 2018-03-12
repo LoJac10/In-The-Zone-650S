@@ -6,7 +6,6 @@ RobotC 4.56 (9134) on VEX Cortex
   
 
 ```
-
 ##	Motors & Sensors:
 ##	UART Port Wiring Diagram
 
