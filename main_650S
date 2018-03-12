@@ -324,10 +324,11 @@ autonomous1(){
 	autoTurnDist(-60,8);
 	clearEncodersQuad();
 
-	// 	straight run to enter score zone -- POWER UP
+	// straight run to enter score zone -- POWER UP
 	autoDriveDist(120,17);
-	//	motor[driveR] = -120;		//	max power
-	//	motor[driveL] = 120;		// max power
+	
+	// motor[driveR] = -120;		// max power
+	// motor[driveL] = 120;		// max power
 	clearEncodersQuad();
 
 
@@ -529,65 +530,67 @@ driverControlViewValues(){
 		(driverControlModeCount){
 		//--------------------------------------------------------------------------------------
 		case 1:
-			//driver control mode program #1: DISPLAY BATTERY VOLTAGE PROGRAM
+			// driver control mode program #1: 
+			// DISPLAY BATTERY VOLTAGE PROGRAM
 			monitorPower();
 			break;
 		//--------------------------------------------------------------------------------------
 		case 2:
-			//driver control mode program #3: SWAP AUTONOMOUS MODE PROGRAMS OPTION
+			// driver control mode program #2: 
+			// SWAP AUTONOMOUS MODE PROGRAMS OPTION
 			swapAuton();
 			break;
 		//--------------------------------------------------------------------------------------
 		case 3:
-			//driver control mode program #4: START AUTONOMOUS MODE PROGRAMS OPTION
+			// driver control mode program #3: 
+			// START AUTONOMOUS MODE PROGRAMS OPTION
 			startAuton();
 			break;
 		//--------------------------------------------------------------------------------------
 		case 4:
-			//driver control mode program #5: DISPLAY ENCODER VALUES
-			//displayEncoderValues();
+			// driver control mode program #4: 
+			// DISPLAY ENCODER VALUES
 			displayEncoderValues();
 			break;
 		//--------------------------------------------------------------------------------------
 		case 5:
-			//driver control mode program #5: DISPLAY ENCODER VALUES
-			//displayEncoderValues();
-			nothingOnScreen();
+			//insert driver control mode program #5 below -- CURRENTLY EMPTY
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		case 6:
 			//insert driver control mode program #6 below -- CURRENTLY EMPTY
-			nothingOnScreen(); //remove this func when you place your assigned func to this slot
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		case 7:
 			//insert driver control mode program#7 below -- CURRENTLY EMPTY
-			nothingOnScreen(); //remove this func when you place your assigned func to this slot
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		case 8:
 			//insert driver control mode program #8 below -- CURRENTLY EMPTY
-			nothingOnScreen(); //remove this func when you place your assigned func to this slot
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		case 9:
 			//insert driver control mode program #9 below -- CURRENTLY EMPTY
-			nothingOnScreen(); //remove this func when you place your assigned func to this slot
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		case 10:
 			//insert driver control mode program #10 below -- CURRENTLY EMPTY
-			nothingOnScreen(); //remove this func when you place your assigned func to this slot
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		case 11:
 			//insert driver control mode program #11 below -- CURRENTLY EMPTY
-			nothingOnScreen(); //remove this func when you place your assigned func to this slot
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		case 12:
 			//insert driver control mode program #12 below -- CURRENTLY EMPTY
-			nothingOnScreen(); //remove this func when you place your assigned func to this slot
+			nothingOnScreen(); // remove this func when you place your assigned func to this slot
 			break;
 		//--------------------------------------------------------------------------------------
 		default:
