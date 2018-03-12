@@ -79,3 +79,16 @@ RobotC 4.56 (9134) on VEX Cortex
 | Digital Port SP    |                    |                    |                              |                
 |                    |                    |                    |                              |
 ```
+```
+##  Power Expander Wiring Diagram
+
+|  [Power Expander]  |      [Cortex]      |  [Power Expander]   |     [Device]     |
+|      [In Port]     |    [Port Number]   |     [Out Port]      |      [Name]      |
+|--------------------|--------------------|---------------------|------------------|
+| Port A             |                    | Port A              |                  |
+| Port B             |                    | Port B              |                  |
+| Port C             |                    | Port C              |                  |     
+| Port D             |                    | Port D              |                  |
+|                    |                    |                     |                  |
+
+```
