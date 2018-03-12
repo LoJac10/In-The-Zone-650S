@@ -14,3 +14,11 @@ clearEncodersIME_func(){
 	SensorValue[imeL] = 0;  				
 	SensorValue[imeR] = 0;				  
 }
+
+//------------------------------------------------------------------------------------------ FUNCTION: CLEAR LCD
+void
+clearLCD(){
+	//clears 1st & 2nd lines of the LCD
+	clearLCDLine(0);	// 1st line of LCD
+	clearLCDLine(1);	// 2nd line of LCD
+}
