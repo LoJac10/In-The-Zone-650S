@@ -248,8 +248,7 @@ autonomousSelection(){
 	//Turn on the LCD backlight
 	bLCDBacklight = true;
 	//Func call to clear LCD screen
-	clearLCDLine(0);
-	clearLCDLine(1);
+	clearLCD();
 
 	while(nLCDButtons != 2)
 	{
@@ -274,8 +273,7 @@ autonomousSelection(){
 	}
 
 	//clear the LCD screen
-	clearLCDLine(0);
-	clearLCDLine(1);
+	clearLCD();
 
 	//Turn off LCD backlight
 	bLCDBacklight = false;
@@ -296,7 +294,7 @@ autonomous1(){
 
 	// straight run command: part 1 -- LOW POWER FOR ALIGN
 	autoDriveDist(60,30);
-	clearEncoders();
+	clearEncodersQuad();
 	// straight run command: part 2 -- POWER UP TO GRAB MOGO
 	autoDriveDist(95,20);
 	raiseMogo(90, 500);
@@ -304,42 +302,42 @@ autonomous1(){
 	// raise MOGO after retrieve MOGO
 	//raiseMogo(0, 250);
 	wait1Msec(500);
-	clearEncoders();
+	clearEncodersQuad();
 
 	//------------------------------------------------------------------------------------------
 
 	// back up for clearing MOGO pick area with cones obstacles
 	autoDriveDist(-70,40);
-	clearEncoders();
+	clearEncodersQuad();
 
 	// turn command to drive forward to position robot in center of score zone
 	autoTurnDist(-50,20);
-	clearEncoders();
+	clearEncodersQuad();
 
 	// straight run command to position robot in center of score zone
 	autoDriveDist(60,10); // distance to MOGO target
-	clearEncoders();
+	clearEncodersQuad();
 
 	//------------------------------------------------------------------------------------------
 
 	// turn to face score corner
 	autoTurnDist(-60,8);
-	clearEncoders();
+	clearEncodersQuad();
 
 	// 	straight run to enter score zone -- POWER UP
 	autoDriveDist(120,17);
 	//	motor[driveR] = -120;		//	max power
 	//	motor[driveL] = 120;		// max power
-	clearEncoders();
+	clearEncodersQuad();
 
 
 	// lower MOGO
 	lowerMogo(120,1000);
-	clearEncoders();
+	clearEncodersQuad();
 
 	// back up for dropping MOGO -- POWER UP
 	autoDriveDist(-120,17);
-	clearEncoders();
+	clearEncodersQuad();
 }
 
 //------------------------------------------------------------------------------------------ AUTON PROGRAM #2
@@ -499,21 +497,18 @@ driverControlViewValues(){
 	//Turn on LCD backlight
 	bLCDBacklight = true;
 	//Func call to clear LCD screen
-	clearLCDLine(0);
-	clearLCDLine(1);
+	clearLCD();
 
 	while(true){
 		if(nLCDButtons == 1){
 			driverControlModeCount--;
 			//Func call to clear LCD screen
-			clearLCDLine(0);
-			clearLCDLine(1);
+			clearLCD();
 			while(nLCDButtons == 1){wait1Msec(10);}
 		}
 		if(nLCDButtons == 4){
 			driverControlModeCount++;
-			clearLCDLine(0);
-			clearLCDLine(1);
+			clearLCD();
 			while(nLCDButtons == 1){wait1Msec(10);}
 		}
 		if(driverControlModeCount < 1){
@@ -604,8 +599,7 @@ driverControlViewValues(){
 	}
 
 	//Func call to clear LCD screen
-	clearLCDLine(0);
-	clearLCDLine(1);
+	clearLCD();
 
 	//Turn off LCD backlight
 	bLCDBacklight = false;
@@ -720,8 +714,7 @@ autonomous(){
 
 task
 usercontrol(){
-	clearLCDLine(0);
-	clearLCDLine(1);
+	clearLCD();
 	startTask(driverControlViewValues);
 	while(true){
 		//use lcd to start autonomous or button 7R on controller
