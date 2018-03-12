@@ -46,17 +46,17 @@ RobotC 4.56 (9134) on VEX Cortex
 
 |     [I/O Port]     |       [Name]       |       [Type]       |         [Description]        |
 |--------------------|--------------------|--------------------|------------------------------|
-| Motor Port 1       | claw| 393 Motor    | claw motor         |                              |
-| Motor Port 2       | elevatorL          | 393 Motor  		   | elevator Lift Left      	  |
-| Motor Port 3       | elevatorR          | 393 Motor  		   | elevator Lift Right     	  |
-| Motor Port 4       | mogoL              | 393 Motor  		   | Mobile Goal Lift Left   	  |
-| Motor Port 5       | mogoR              | 393 Motor  		   | Mobile Goal Lift Right  	  |
-| Motor Port 6       | armL               | 393 Motor  		   | Arm Lift Left           	  |
-| Motor Port 7       | armR               | 393 Motor  	       | Arm Lift Right          	  |
-| Motor Port 8       | driveL             | 393 Motor  		   | Drive Motor Left        	  |
-| Motor Port 9       | driveR             | 393 Motor  		   | Drive Motor Right       	  |
-| Motor Port 10      |                    |            		   |                         	  |
-|                    |                    |            		   |                         	  |
+| Motor Port 1       | claw               | 393 Motor          | claw motor                   |
+| Motor Port 2       | elevatorL          | 393 Motor          | elevator Lift Left           |
+| Motor Port 3       | elevatorR          | 393 Motor          | elevator Lift Right          |
+| Motor Port 4       | mogoL              | 393 Motor          | Mobile Goal Lift Left        |
+| Motor Port 5       | mogoR              | 393 Motor          | Mobile Goal Lift Right       |
+| Motor Port 6       | armL               | 393 Motor          | Arm Lift Left                |
+| Motor Port 7       | armR               | 393 Motor          | Arm Lift Right               |
+| Motor Port 8       | driveL             | 393 Motor          | Drive Motor Left             |
+| Motor Port 9       | driveR             | 393 Motor          | Drive Motor Right            |
+| Motor Port 10      |                    |                    |                              |
+|                    |                    |                    |                              |
 ```
 ```
 ##	Motors & Sensors:
